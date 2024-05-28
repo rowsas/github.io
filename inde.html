@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body class="bg-gray-900 ">
+
+    <nav class="">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-semibold text-blue-600/100">Rowsas</a>
+                </div>
+                <div class="hidden md:flex space-x-4">
+                    <a href="#home"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium">Home</a>
+                    <a href="#portfolio"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium">About</a>
+                    <a href="#about"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium">Skill</a>
+                    <a href="#contact"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <input type="checkbox" id="menu-toggle" class="hidden" />
+                    <label for="menu-toggle" class="cursor-pointer">
+                        <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="md:hidden" id="menu" class="hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Home</a>
+                <a href="#About"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">About</a>
+                <a href="#skill"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Skill</a>
+                <a href="#contact"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="bg-gray-900 py-12">
+        <div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-extrabold text-blue-600/100  sm:text-5xl lg:text-6xl">Mohamed Rowsas </h1>
+            <p class="mt-4 max-w-xl mx-auto text-3xl text-blue-600/50">Fullstack Webdevelopper</p>
+        </div>
+    </section>
+
+    <section id="about" class="bg-gray-900 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-extrabold text-white">About Me</h2>
+            <p class="mt-4 text-xl text-gray-300">As a Full Stack Web Developer, I have successfully designed and
+                implemented numerous projects, showcasing my ability to deliver high-quality solutions. I am skilled in
+                both front-end and back-end development, utilizing languages such as HTML, CSS, JavaScript,React,Nodejs.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="education" class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold text-gray-600 mb-6">Education</h2>
+        <div class="space-y-6">
+            <div class="education-item border-b border-gray-200 pb-4">
+                <h3 class="text-xl font-semibold text-gray-800">GCE Ordinary Level</h3>
+                <p class="text-gray-600">STR-Dharussalam Maha vidylaya, 2017</p>
+
+            </div>
+            <div class="education-item border-b border-gray-200 pb-4">
+                <h3 class="text-xl font-semibold text-gray-800">GCE-Advance level</h3>
+                <p class="text-gray-600"> TR-Muslim Madya Maha Vidylaya,2017-2020 </p>
+
+            </div>
+            <div class="education-item pb-4">
+                <h3 class="text-xl font-semibold text-gray-800">Higher Study</h3>
+                <p class="text-gray-500">Uki Coding Scholl,2024-2025.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Skill">
+
+        <div class="container mx-auto my-8">
+            <h1 class="text-3xl font-bold text-center text-white mb-8">My Skills</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/download.jpeg" alt="Html">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">HTML</h2>
+
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/download.jpeg" alt="CSS">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">CSS</h2>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/download.png" alt="javascript">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">Javascript</h2>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/download (1).png" alt="Reacr\t">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">React Js</h2>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/expre.png" alt="expree">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">Skill Name 5</h2>
+                        <p class="mt-2 text-gray-600">Brief description of skill 5.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/mong.png" alt="mongodb">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">Skill Name 6</h2>
+                        <p class="mt-2 text-gray-600">Brief description of skill 6.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container mx-auto my-8">
+            <h1 class="text-3xl font-bold text-center text-white mb-8">My Projects</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/school.jpeg" alt="School">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">School Project managment</h2>
+                        <p class="mt-2 text-gray-600">School... </p>
+                        <a href="#" class="mt-4 inline-block text-blue-500 hover:text-blue-700">Read more</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/educa).jpeg" alt="Education">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">Education Website</h2>
+                        <p class="mt-2 text-gray-600">Education.....</p>
+                        <a href="#" class="mt-4 inline-block text-blue-500 hover:text-blue-700">Read more</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="./image/logn.jpeg" alt="login">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-800">login Page</h2>
+                        <p class="mt-2 text-gray-600">Login.....</p>
+                        <a href="#" class="mt-4 inline-block text-blue-500 hover:text-blue-700">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+
+        <div class="container mx-auto p-4">
+            <h1 class="text-3xl font-bold text-center text-white mb-8">Contact Us</h1>
+            <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg p-6">
+                <form>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="name">Name</label>
+                        <input
+                            class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:shadow-outline"
+                            id="name" type="text" name="name" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="email">Email</label>
+                        <input
+                            class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:shadow-outline"
+                            id="email" type="email" name="email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="message">Message</label>
+                        <textarea
+                            class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:shadow-outline"
+                            id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <button
+                            class="w-full px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+                            type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <footer class="bg-gray-800 text-white py-6">
+            <div class="container mx-auto flex flex-col lg:flex-row justify-center items-center">
+
+                <div class="flex justify-center ">
+                    <a href="#" class="footer-link w-10 mr-4 hover:text-gray-300">
+                        <img src="./image/link.png" alt="linkden">
+                    </a>
+                    <a href="#" class="footer-link w-10 mr-4 hover:text-gray-300">
+                        <img src="./image/git.png" alt="Twitter">
+                    </a>
+                    <a href="#" class="footer-link  w-10 hover:text-gray-300">
+                        <img src="./image/med.jpeg" alt="github">
+                    </a>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <p class="text-sm">&copy; All rights reserved.</p>
+                <p class="text-sm">Designed with <span class="text-red-500">&#9829;</span> by <a href="#"
+                        class="text-blue-400 hover:text-blue-200">Rowsas</a></p>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>
